@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
 
 <BorderPane id="BorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="1067.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
     <top>
@@ -11,40 +17,40 @@
                 <Label style="-fx-text-fill: #737572;" text="Automatic filling" />
                 <GridPane alignment="CENTER_LEFT" maxHeight="24.0" minHeight="24.0" prefHeight="24.0">
                     <children>
-                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false">
+                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" prefWidth="24.0" mnemonicParsing="false">
                             <graphic>
                                 <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                                     <Image url="@../../../../resources/com/pixelduke/control/Fill_from_selection.png" />
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" mnemonicParsing="false" GridPane.columnIndex="1" />
+                        <HBox maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" GridPane.columnIndex="1" />
                         <Label text="Fill from selection" GridPane.columnIndex="2" />
                     </children>
                 </GridPane>
                 <GridPane alignment="CENTER_LEFT" maxHeight="24.0" minHeight="24.0" prefHeight="24.0">
                     <children>
-                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false">
+                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" prefWidth="24.0" mnemonicParsing="false">
                             <graphic>
                                 <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                                     <Image url="@../../../../resources/com/pixelduke/control/Apply_suggestion.png" />
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" mnemonicParsing="false" GridPane.columnIndex="1" />
+                        <HBox maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" GridPane.columnIndex="1" />
                         <Label text="Apply suggestion" GridPane.columnIndex="2" />
                     </children>
                 </GridPane>
                 <GridPane alignment="CENTER_LEFT" maxHeight="24.0" minHeight="24.0" prefHeight="24.0">
                     <children>
-                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false">
+                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" prefWidth="24.0" mnemonicParsing="false">
                             <graphic>
                                 <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                                     <Image url="@../../../../resources/com/pixelduke/control/Clear_suggestions.png" />
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" mnemonicParsing="false" GridPane.columnIndex="1" />
+                        <HBox maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" GridPane.columnIndex="1" />
                         <Label text="Clear suggestions" GridPane.columnIndex="2" />
                     </children>
                 </GridPane>
@@ -52,53 +58,53 @@
                 <Label style="-fx-text-fill: #737572;" text="Rule management" />
                 <GridPane alignment="CENTER_LEFT" maxHeight="24.0" minHeight="24.0" prefHeight="24.0">
                     <children>
-                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false">
+                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" prefWidth="24.0" mnemonicParsing="false">
                             <graphic>
                                 <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                                     <Image url="@../../../../resources/com/pixelduke/control/Open_the_rule_panel.png" />
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" mnemonicParsing="false" GridPane.columnIndex="1" />
+                        <HBox maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" GridPane.columnIndex="1" />
                         <Label text="Open the rule panel" GridPane.columnIndex="2" />
                     </children>
                 </GridPane>
                 <GridPane alignment="CENTER_LEFT" maxHeight="24.0" minHeight="24.0" prefHeight="24.0">
                     <children>
-                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false">
+                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" prefWidth="24.0" mnemonicParsing="false">
                             <graphic>
                                 <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                                     <Image url="@../../../../resources/com/pixelduke/control/Keyword_lists.png" />
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" mnemonicParsing="false" GridPane.columnIndex="1" />
+                        <HBox maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" GridPane.columnIndex="1" />
                         <Label text="Keyword lists" GridPane.columnIndex="2" />
                     </children>
                 </GridPane>
                 <GridPane alignment="CENTER_LEFT" maxHeight="24.0" minHeight="24.0" prefHeight="24.0">
                     <children>
-                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false">
+                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" prefWidth="24.0" mnemonicParsing="false">
                             <graphic>
                                 <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                                     <Image url="@../../../../resources/com/pixelduke/control/Import_rules.png" />
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" mnemonicParsing="false" GridPane.columnIndex="1" />
+                        <HBox maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" GridPane.columnIndex="1" />
                         <Label text="Import rules" GridPane.columnIndex="2" />
                     </children>
                 </GridPane>
                 <GridPane alignment="CENTER_LEFT" maxHeight="24.0" minHeight="24.0" prefHeight="24.0">
                     <children>
-                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false">
+                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" prefWidth="24.0" mnemonicParsing="false">
                             <graphic>
                                 <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                                     <Image url="@../../../../resources/com/pixelduke/control/Create_rule_coreset.png" />
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" mnemonicParsing="false" GridPane.columnIndex="1" />
+                        <HBox maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" GridPane.columnIndex="1" />
                         <Label text="Create rule core set" GridPane.columnIndex="2" />
                     </children>
                 </GridPane>
@@ -106,14 +112,14 @@
                 <Label style="-fx-text-fill: #737572;" text="Duplicates" />
                 <GridPane alignment="CENTER_LEFT" maxHeight="24.0" minHeight="24.0" prefHeight="24.0">
                     <children>
-                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false">
+                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" prefWidth="24.0" mnemonicParsing="false">
                             <graphic>
                                 <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                                     <Image url="@../../../../resources/com/pixelduke/control/Search_duplicates.png" />
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" mnemonicParsing="false" GridPane.columnIndex="1" />
+                        <HBox maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" GridPane.columnIndex="1" />
                         <Label text="Search duplicates" GridPane.columnIndex="2" />
                     </children>
                 </GridPane>

@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
 
 <BorderPane id="BorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="1067.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
     <top>
@@ -11,45 +17,45 @@
                 <Label style="-fx-text-fill: #737572;" text="Display" />
                 <GridPane alignment="CENTER_LEFT" maxHeight="24.0" minHeight="24.0" prefHeight="24.0">
                     <children>
-                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false">
+                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" prefWidth="24.0" mnemonicParsing="false">
                             <graphic>
                                 <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                                     <Image url="@../../../../resources/com/pixelduke/control/Resize_columns.png" />
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" mnemonicParsing="false" GridPane.columnIndex="1" />
+                        <HBox maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" GridPane.columnIndex="1" />
                         <Label text="Resize columns" GridPane.columnIndex="2" />
                     </children>
                 </GridPane>
                 <GridPane alignment="CENTER_LEFT" maxHeight="24.0" minHeight="24.0" prefHeight="24.0">
                     <children>
-                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false">
+                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" prefWidth="24.0" mnemonicParsing="false">
                             <graphic>
                                 <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                                     <Image url="@../../../../resources/com/pixelduke/control/Display_default_columns.png" />
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" mnemonicParsing="false" GridPane.columnIndex="1" />
+                        <HBox maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" GridPane.columnIndex="1" />
                         <Label text="Display default columns" GridPane.columnIndex="2" />
                     </children>
                 </GridPane>
-                <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false" styleClass="..\Styles\ButtonTool.css">
+                <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" prefWidth="24.0" mnemonicParsing="false" styleClass="..\Styles\ButtonTool.css">
                     <graphic>
                         <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                             <Image url="@../../../../resources/com/pixelduke/control/Increase_font_size.png" />
                         </ImageView>
                     </graphic>
                 </Button>
-                <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false" styleClass="..\Styles\ButtonTool.css">
+                <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" prefWidth="24.0" mnemonicParsing="false" styleClass="..\Styles\ButtonTool.css">
                     <graphic>
                         <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                             <Image url="@../../../../resources/com/pixelduke/control/Decrease_font_size.png" />
                         </ImageView>
                     </graphic>
                 </Button>
-                <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false" styleClass="..\Styles\ButtonTool.css">
+                <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" prefWidth="24.0" mnemonicParsing="false" styleClass="..\Styles\ButtonTool.css">
                     <graphic>
                         <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                             <Image url="@../../../../resources/com/pixelduke/control/Wrap_text.png" />
@@ -58,42 +64,42 @@
                 </Button>
                 <Separator orientation="VERTICAL" prefHeight="24.0" />
                 <Label style="-fx-text-fill: #737572;" text="Navigation" />
-                <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false" styleClass="..\Styles\ButtonTool.css">
+                <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" prefWidth="24.0" mnemonicParsing="false" styleClass="..\Styles\ButtonTool.css">
                     <graphic>
                         <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                             <Image url="@../../../../resources/com/pixelduke/control/Previous_empty_row.png" />
                         </ImageView>
                     </graphic>
                 </Button>
-                <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false" styleClass="..\Styles\ButtonTool.css">
+                <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" prefWidth="24.0" mnemonicParsing="false" styleClass="..\Styles\ButtonTool.css">
                     <graphic>
                         <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                             <Image url="@../../../../resources/com/pixelduke/control/Next_empty_row.png" />
                         </ImageView>
                     </graphic>
                 </Button>
-                <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false" styleClass="..\Styles\ButtonTool.css">
+                <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" prefWidth="24.0" mnemonicParsing="false" styleClass="..\Styles\ButtonTool.css">
                     <graphic>
                         <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                             <Image url="@../../../../resources/com/pixelduke/control/First_row.png" />
                         </ImageView>
                     </graphic>
                 </Button>
-                <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false" styleClass="..\Styles\ButtonTool.css">
+                <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" prefWidth="24.0" mnemonicParsing="false" styleClass="..\Styles\ButtonTool.css">
                     <graphic>
                         <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                             <Image url="@../../../../resources/com/pixelduke/control/Last_row.png" />
                         </ImageView>
                     </graphic>
                 </Button>
-                <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false" styleClass="..\Styles\ButtonTool.css">
+                <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" prefWidth="24.0" mnemonicParsing="false" styleClass="..\Styles\ButtonTool.css">
                     <graphic>
                         <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                             <Image url="@../../../../resources/com/pixelduke/control/Previous_column.png" />
                         </ImageView>
                     </graphic>
                 </Button>
-                <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false" styleClass="..\Styles\ButtonTool.css">
+                <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" prefWidth="24.0" mnemonicParsing="false" styleClass="..\Styles\ButtonTool.css">
                     <graphic>
                         <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                             <Image url="@../../../../resources/com/pixelduke/control/Next_column.png" />
@@ -104,66 +110,66 @@
                 <Label style="-fx-text-fill: #737572;" text="Panels" />
                 <GridPane alignment="CENTER_LEFT" maxHeight="24.0" minHeight="24.0" prefHeight="24.0">
                     <children>
-                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false">
+                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" prefWidth="24.0" mnemonicParsing="false">
                             <graphic>
                                 <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                                     <Image url="@../../../../resources/com/pixelduke/control/Navigator.png" />
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" mnemonicParsing="false" GridPane.columnIndex="1" />
+                        <HBox maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" GridPane.columnIndex="1" />
                         <Label text="Navigator" GridPane.columnIndex="2" />
                     </children>
                 </GridPane>
                 <GridPane alignment="CENTER_LEFT" maxHeight="24.0" minHeight="24.0" prefHeight="24.0">
                     <children>
-                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false">
+                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" prefWidth="24.0" mnemonicParsing="false">
                             <graphic>
                                 <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                                     <Image url="@../../../../resources/com/pixelduke/control/Image_search.png" />
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" mnemonicParsing="false" GridPane.columnIndex="1" />
+                        <HBox maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" GridPane.columnIndex="1" />
                         <Label text="Image search" GridPane.columnIndex="2" />
                     </children>
                 </GridPane>
                 <GridPane alignment="CENTER_LEFT" maxHeight="24.0" minHeight="24.0" prefHeight="24.0">
                     <children>
-                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false">
+                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" prefWidth="24.0" mnemonicParsing="false">
                             <graphic>
                                 <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                                     <Image url="@../../../../resources/com/pixelduke/control/Rule_panel.png" />
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" mnemonicParsing="false" GridPane.columnIndex="1" />
+                        <HBox maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" GridPane.columnIndex="1" />
                         <Label text="Rule panel" GridPane.columnIndex="2" />
                     </children>
                 </GridPane>
                 <GridPane alignment="CENTER_LEFT" maxHeight="24.0" minHeight="24.0" prefHeight="24.0">
                     <children>
-                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false">
+                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" prefWidth="24.0" mnemonicParsing="false">
                             <graphic>
                                 <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                                     <Image url="@../../../../resources/com/pixelduke/control/Item_panel.png" />
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" mnemonicParsing="false" GridPane.columnIndex="1" />
+                        <HBox maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" GridPane.columnIndex="1" />
                         <Label text="Item panel" GridPane.columnIndex="2" />
                     </children>
                 </GridPane>
                 <GridPane alignment="CENTER_LEFT" maxHeight="24.0" minHeight="24.0" prefHeight="24.0">
                     <children>
-                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false">
+                        <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" prefWidth="24.0" mnemonicParsing="false">
                             <graphic>
                                 <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
                                     <Image url="@../../../../resources/com/pixelduke/control/Close_all_panels.png" />
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" mnemonicParsing="false" GridPane.columnIndex="1" />
+                        <HBox maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" GridPane.columnIndex="1" />
                         <Label text="Close all panels" GridPane.columnIndex="2" />
                     </children>
                 </GridPane>
