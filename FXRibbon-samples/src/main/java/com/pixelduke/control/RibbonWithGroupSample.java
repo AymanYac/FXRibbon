@@ -44,7 +44,7 @@ public class RibbonWithGroupSample extends Application {
     public void start(Stage primaryStage) {
         BorderPane rootNode = new BorderPane();
         Ribbon ribbon = new Ribbon();
-        RibbonTab ribbonTab = new RibbonTab("Test");
+        RibbonTab ribbonTab = new RibbonTab("Home");
         RibbonGroup ribbonGroup = new RibbonGroup();
 
         rootNode.setTop(ribbon);

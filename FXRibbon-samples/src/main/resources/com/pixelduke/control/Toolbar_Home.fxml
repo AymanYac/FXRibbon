@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane id="BorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="1067.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+       <ToolBar maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" prefHeight="35.0" style="-fx-background-color: #D6DCE4;-fx-spacing: 10px;" stylesheets="@../../../Styles/MenuLightBlue.css" BorderPane.alignment="CENTER" >
+        <items>
+            <Label style="-fx-text-fill: #737572;" text="Cancellation" />
+            <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false" styleClass="..\Styles\ButtonTool.css">
+              <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                      <Image url="@../../../../resources/com/pixelduke/control/cancel.png" />
+                  </ImageView>
+              </graphic>
+            </Button>
+            <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false">
+                <graphic>
+                    <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                        <Image url="@../../../../resources/com/pixelduke/control/repeat.png" />
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Separator orientation="VERTICAL" prefHeight="24.0" />
+            <Label style="-fx-text-fill: #737572;" text="Clipboard" />
+            <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false">
+                <graphic>
+                    <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                        <Image url="@../../../../resources/com/pixelduke/control/cut.png" />
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false">
+                <graphic>
+                    <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                        <Image url="@../../../../resources/com/pixelduke/control/copy.png" />
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false">
+                <graphic>
+                    <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                        <Image url="@../../../../resources/com/pixelduke/control/paste.png" />
+                    </ImageView>
+                </graphic>
+            </Button>
+            <GridPane alignment="CENTER_LEFT" maxHeight="24.0" minHeight="24.0" prefHeight="24.0">
+               <children>
+                   <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false">
+                       <graphic>
+                           <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                               <Image url="@../../../../resources/com/pixelduke/control/Copy_article_ID.png" />
+                           </ImageView>
+                       </graphic>
+                   </Button>
+                   <Button maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" mnemonicParsing="false" GridPane.columnIndex="1" />
+                   <Label text="Copy Article ID" GridPane.columnIndex="2" />
+               </children>
+            </GridPane>
+            <GridPane alignment="CENTER_LEFT" maxHeight="24.0" minHeight="24.0" prefHeight="24.0">
+                <children>
+                    <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false">
+                        <graphic>
+                            <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                                <Image url="@../../../../resources/com/pixelduke/control/Copy_active_URL.png" />
+                            </ImageView>
+                        </graphic>
+                    </Button>
+                    <Button maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" mnemonicParsing="false" GridPane.columnIndex="1" />
+                    <Label text="Copy Article URL" GridPane.columnIndex="2" />
+                </children>
+            </GridPane>
+            <Separator orientation="VERTICAL" prefHeight="24.0" />
+            <Label style="-fx-text-fill: #737572;" text="Page" />
+            <GridPane alignment="CENTER_LEFT" maxHeight="24.0" minHeight="24.0" prefHeight="24.0">
+                <children>
+                    <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false">
+                        <graphic>
+                            <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                                <Image url="@../../../../resources/com/pixelduke/control/Reload.png" />
+                            </ImageView>
+                        </graphic>
+                    </Button>
+                    <Button maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" mnemonicParsing="false" GridPane.columnIndex="1" />
+                    <Label text="Reload" GridPane.columnIndex="2" />
+                </children>
+            </GridPane>
+            <GridPane alignment="CENTER_LEFT" maxHeight="24.0" minHeight="24.0" prefHeight="24.0">
+                <children>
+                    <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false">
+                        <graphic>
+                            <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                                <Image url="@../../../../resources/com/pixelduke/control/Refresh.png" />
+                            </ImageView>
+                        </graphic>
+                    </Button>
+                    <Button maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" mnemonicParsing="false" GridPane.columnIndex="1" />
+                    <Label text="Refresh" GridPane.columnIndex="2" />
+                </children>
+            </GridPane>
+            <GridPane alignment="CENTER_LEFT" maxHeight="24.0" minHeight="24.0" prefHeight="24.0">
+                <children>
+                    <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false">
+                        <graphic>
+                            <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                                <Image url="@../../../../resources/com/pixelduke/control/Reevaluate.png" />
+                            </ImageView>
+                        </graphic>
+                    </Button>
+                    <Button maxHeight="8.0" maxWidth="8.0" minHeight="8.0" minWidth="8.0" mnemonicParsing="false" GridPane.columnIndex="1" />
+                    <Label text="Reevaluate" GridPane.columnIndex="2" />
+                </children>
+            </GridPane>
+            <GridPane alignment="CENTER_LEFT" maxHeight="24.0" minHeight="24.0" prefHeight="24.0">
+                <children>
+                    <Button maxHeight="24.0" maxWidth="24.0" minHeight="24.0" minWidth="24.0" mnemonicParsing="false">
+                        <graphic>
+                            <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                                <Image url="@../../../../resources/com/pixelduke/control/Synchronize.png" />
+                            </ImageView>
+                        </graphic>
+                    </Button>
+                    <Label text="Synchronize" GridPane.columnIndex="1" />
+                </children>
+            </GridPane>
+            <Separator orientation="VERTICAL" prefHeight="24.0" />
+        </items>
+      </ToolBar>
+   </top>
+</BorderPane>

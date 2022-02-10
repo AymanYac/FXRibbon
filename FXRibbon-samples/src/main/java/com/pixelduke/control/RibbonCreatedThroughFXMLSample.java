@@ -36,7 +36,7 @@ import javafx.stage.Stage;
 import java.net.URL;
 
 public class RibbonCreatedThroughFXMLSample extends Application {
-    private static final String RESOURCE = "RibbonFXML.fxml";
+    private static final String RESOURCE = "Toolbar_Settings.fxml";
 
     @Override
     public void start(Stage primaryStage) throws Exception
